@@ -96,7 +96,7 @@ If you get errors while trying to execute Gradle tasks, make sure that you do no
 ### Using Eclipse
 
 - Install and open the latest version of Eclipse:
-  http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/neon2
+  http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/neon2
 
 - Create a new Eclipse workspace. The workspace should NOT contain the
   `battlecode-scaffold-2017` folder.
@@ -152,8 +152,6 @@ If you get errors while trying to execute Gradle tasks, make sure that you do no
 
 - You're good to go. Run `gradle -q tasks` to see the other Gradle build
   tasks available. You shouldn't need to use any tasks outside of the "battlecode" group.
-  
-- Use `gradle unpackClient` to get the client if you don't already see it in a `client` folder.
 
 
 ## Writing Players
@@ -170,7 +168,7 @@ This year, you can store your code in packages as you like; the only restriction
 
 ### Local
 
-Following the instructions above should download a client into the `client` folder (usine `gradle unpackClient` if you don't see it). This is the app for running matches. Double click this application to open it; you are now looking at the game client for Battlecode 2017! **NOTE: Do not move any application files in the `client` folder, as you may lose the ability to run matches properly!**
+Following the instructions above should download a client into the `client` folder (using `gradle unpackClient` if you don't see it). This is the app for running matches. Double click this application to open it; you are now looking at the game client for Battlecode 2017! **NOTE: Do not move any application files in the `client` folder, as you may lose the ability to run matches properly!**
 
 #### Client Basics
 
